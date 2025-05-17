@@ -17,3 +17,9 @@ variable "repository_description" {
   type        = string
   default     = "Repository managed by Terraform"
 }
+
+variable "repo_publicly_visible" {
+  description = "Visibility of the GitHub repository"
+  type        = bool
+  default     = false
+}
